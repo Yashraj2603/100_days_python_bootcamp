@@ -1,5 +1,5 @@
 def band_name_generator(city , pet):
-    print("Your band name can be ", city + pet)
+    print("Your band name can be ", city +" "+ pet)
 
 
 def query_band():
