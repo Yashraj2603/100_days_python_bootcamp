@@ -26,3 +26,7 @@ for i in range(nr_symbols):
 for i in range(nr_numbers):
   password.append(random.choice(numbers))
 print(string1.join(password))
+print(f"Your password is: {string1.join(password)}")
+print("Thank you for using the PyPassword Generator!")
+print("Please visit https://www.passwordmonster.com/ to generate more secure passwords!")
+
